@@ -1,0 +1,175 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 80%;
+	height: auto;
+}
+body{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+	font-size: 40px;
+	font-family: 'Amaranth', sans-serif;
+}
+h2,h3{
+	font-size: 20px;
+	font-family: 'Amaranth', sans-serif;
+}
+main{
+	padding: 20px;
+}
+header{
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header p{
+	text-align: center;
+	color: white;
+	background: #879e0f;
+}
+header h1{
+	text-align: center;
+	color: white;
+}
+header .titre{
+	display: flex;
+	justify-content: center;
+}
+header .titre img{
+	 width: 44px;
+    height: 62px;
+}
+header .shop{
+	/*margin-top: 20px;*/
+	color: white;
+	padding: 10px;
+
+}
+header .shop a{
+	color: white;
+}
+header .shop a .fas{
+	border:1px solid white;
+	border-radius: 50%;
+	padding: 9px;
+	margin-right: 5px;
+	color: #d2dca0;
+}
+header nav{
+	text-align: center;
+	padding-bottom: 30px;
+}
+header nav ul li{
+	line-height: 3;
+}
+header nav ul li a{
+	color: #fcfdf8;
+}
+.tea{
+	text-align: center;
+	margin-top: 42px;
+}
+.tea h3{
+	color: #95b20c;
+	margin-bottom: 24px;
+}
+.tea figure{
+	display: inline-block;
+	width: 40%;
+}
+.tea figure figcaption{
+	text-align: center;
+	color:#68656c;
+}
+figcaption{
+	
+	color:#68656c;
+}
+section article{
+	text-align: center;
+    margin-top: 50px;
+}
+section article h3{
+	color: #95b20c;
+}
+section article strong{
+	display: block;
+	margin-top: 15px;
+	color:#68656c;
+}
+section article p{
+	line-height: 1.5;
+	color:#68656c;
+	margin-top: 25px;
+}
+section article span{
+	display: block;
+	margin-top: 20px;
+	color:#68656c;
+}
+section article a{
+	background: gray;
+	padding: 10px;
+	display: inline-block;
+	color: white;
+	margin-top: 30px;
+	background: #b09067;
+}
+section article h3:after{
+	
+}
+section article h3:before{
+	
+}
+footer{
+	text-align: center;
+	background: #96b011;
+	color: white;
+	margin-top: 30px;
+}
+footer a{
+	color:white;
+}
+footer nav{
+	background: #879e0f;
+	padding: 20px;
+}
+footer nav a .fas{
+	display: block;
+}
+footer nav div{
+  display: inline-block;
+  /*margin-left: 20px;
+  margin-right: 20px;*/
+}
+footer nav div a{
+  color: #b5cf61;
+  font-size: 12px;
+}
+.liste_lien .item{
+	margin-top: 30px;
+}
+.liste_lien .item ul li{
+	line-height: 1.8;
+}
+.liste_lien .item ul li a{
+	color: #b5cf61;
+}
+.liste_lien .item h5{
+	margin-bottom: 20px;
+}
+@media screen and (min-width: 768px){
+	
+}
